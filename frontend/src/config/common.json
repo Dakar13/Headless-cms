@@ -1,0 +1,13 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "languages": {
+    "default": "es",
+    "list": ["es", "en"]
+  },
+  "security": {
+    "secretKey": "",
+    "expiresIn": "1d"
+  }
+}

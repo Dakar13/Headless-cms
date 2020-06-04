@@ -1,0 +1,38 @@
+@import '~styles/_dependencies';
+
+.schema {
+  padding-left: 10px;
+
+  .model {
+    position: relative;
+
+    div {
+      top: 45px;
+      left: 96px;
+    }
+
+    .name {
+      color: $tuna;
+      display: inline;
+      font-size: $xLarge;
+      font-weight: 500;
+    }
+
+    .identifier {
+      color: $frenchGray;
+    }
+  }
+
+  .toggle {
+    margin: 20px 0px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+}
